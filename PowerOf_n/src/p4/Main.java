@@ -1,0 +1,21 @@
+package p4;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a number");
+		int n = scan.nextInt();
+		
+		Power power = new Power();
+		int digi = power.countDigits(n);
+		int res = power.raisedcToPower(n,digi);
+		System.out.println("Result when "+n+"is raised to power  "+digi+" is "+res);
+		
+
+	}
+
+}

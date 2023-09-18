@@ -1,0 +1,18 @@
+package p1;
+
+public class Armstrong {
+
+	int check(int n)
+	{
+		int sum=0;
+		while(n>0)
+		{
+		int var=n%10;
+		n=n/10;
+		sum=var*var*var+sum;
+		
+		}
+		return sum;
+	}
+	
+}

@@ -1,0 +1,25 @@
+package studyopedia;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a number : ");
+		int num = scan.nextInt();
+		
+		System.out.println("Enter the power to which it shpuld be raised : ");
+		int n = scan.nextInt();
+
+		
+		power p1=new power();
+		int res = p1.powerOfn(num,n);
+		System.out.println(res);
+		
+		
+	}
+
+}

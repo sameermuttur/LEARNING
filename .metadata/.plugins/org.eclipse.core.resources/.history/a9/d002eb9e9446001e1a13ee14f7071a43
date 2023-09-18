@@ -1,0 +1,10 @@
+package studyopedia;
+
+public class power {
+	
+	int powerOfn(int num,int n)
+	{
+		return num*n;
+	}
+
+}

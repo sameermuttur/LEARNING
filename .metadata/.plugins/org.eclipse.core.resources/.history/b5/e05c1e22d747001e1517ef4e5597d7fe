@@ -1,0 +1,25 @@
+package p1;
+
+public class Armstrong {
+
+	boolean isArmstrong(int num)
+	{
+		int original=num;
+		int sum=0;
+		while(num!=0)
+		{
+		int ld=num%10;
+		int drp=(int)Math.pow(ld, 3);
+		sum=sum+drp;
+		num=num/10;
+		}
+		if(original==sum)
+		{
+			return true;
+		}
+	
+
+		return false;
+	
+	}
+}

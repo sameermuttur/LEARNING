@@ -1,0 +1,14 @@
+package com.kodnest.javapatterns.level3;
+
+public class pattern_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		for(int j=0;j<=10;j++)
+		{
+			System.out.print("*");
+		}
+	}
+
+}
